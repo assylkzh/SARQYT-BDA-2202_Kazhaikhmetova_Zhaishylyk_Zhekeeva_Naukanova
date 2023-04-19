@@ -1,0 +1,89 @@
+@font-face{
+    src: url(/fonts/Skiff-Regular.otf);
+    font-family:nos;
+    font-weight: bold;
+}
+body{
+    background: rgba(0, 0, 0, 0.9) url(/images/backgroud.jpg);
+    height: 100%;
+    background-position: center;
+    background-blend-mode: darken;
+    font-family: nos;
+    font-size: 18px;
+    margin: 0%;
+}
+img{
+    height: 600px;
+    width: 600px;
+    padding-top: 40px;
+}
+hr {
+    border: none;
+    height: 3px;
+    background-color:#F9F5EB;
+}
+h1{
+    text-align: center;
+    color:#F9F5EB;
+}
+
+.d1{
+    float: right;
+    padding-left: 30px;
+}
+.d2{
+    float: left;
+}
+p{
+    display: block;
+    padding: 20px;
+    color: #F9F5EB;
+    
+}
+.text1{
+    clear: right;
+    margin: auto;
+    
+}
+.text2{
+    clear: left;
+    margin: auto;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+#closing{
+    margin: 30px;
+}
+nav {
+    height: 50px;
+}
+#logo{
+    float: left;
+    height: 100px;
+    width: 100px;
+    position: static;
+    padding: 0;
+    margin-top: 5px;
+}
+.list-item{
+    display: inline;
+    padding: 0;
+    margin: auto;
+}
+.list-item li {
+    display: inline;
+    
+}
+.list-item li a {
+    color: #F9F5EB;
+    margin: 5px;
+    text-align: center;
+}
+#heading{
+    margin-top:0;
+}
+
+  
