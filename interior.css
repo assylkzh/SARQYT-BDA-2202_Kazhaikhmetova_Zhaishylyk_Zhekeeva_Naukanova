@@ -12,21 +12,11 @@ body{
     font-size: 18px;
     margin: 0%;
 }
-img{
-    height: 600px;
-    width: 600px;
-    padding-top: 40px;
-}
 hr {
     border: none;
     height: 3px;
     background-color:#F9F5EB;
 }
-h1{
-    text-align: center;
-    color:#F9F5EB;
-}
-
 .d1{
     float: right;
     padding-left: 30px;
@@ -34,12 +24,7 @@ h1{
 .d2{
     float: left;
 }
-p{
-    display: block;
-    padding: 20px;
-    color: #F9F5EB;
-    
-}
+
 .text1{
     clear: right;
     margin: auto;
@@ -57,17 +42,6 @@ p{
 #closing{
     margin: 30px;
 }
-nav {
-    height: 50px;
-}
-#logo{
-    float: left;
-    height: 100px;
-    width: 100px;
-    position: static;
-    padding: 0;
-    margin-top: 5px;
-}
 .list-item{
     display: inline;
     padding: 0;
@@ -82,8 +56,63 @@ nav {
     margin: 5px;
     text-align: center;
 }
-#heading{
-    margin-top:0;
+
+
+
+
+/* Navigation Bar */
+#logo{
+    float: left;
+    height: 100px;
+    width: 100px;
+    position: static;
+    padding: 0;
+    margin-top: 25px 15px;
+}
+nav{
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.navbar-toggler{
+    margin: 15px 20px;
+    position: static;
+}
+#navbarNavAltMarkup{
+    float: right;
 }
 
-  
+.nav-link{
+    display: inline;
+    text-align: center;
+    width: 150px;
+}
+
+/* Body */
+#heading{
+    margin-top:80px;
+    text-align: center;
+    font-size: 70px;
+    padding: 0;
+}
+.row{
+    margin-top: 150px;
+}
+h1{
+    text-align: center;
+    color:#F9F5EB;
+}
+img{
+    height: 600px;
+    width: 600px;
+}
+p{
+    display: block;
+    padding: 20px;
+    color: #F9F5EB;
+}
+
+
+
+
