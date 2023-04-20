@@ -12,53 +12,6 @@ body{
     font-size: 18px;
     margin: 0%;
 }
-hr {
-    border: none;
-    height: 3px;
-    background-color:#F9F5EB;
-}
-.d1{
-    float: right;
-    padding-left: 30px;
-}
-.d2{
-    float: left;
-}
-
-.text1{
-    clear: right;
-    margin: auto;
-    
-}
-.text2{
-    clear: left;
-    margin: auto;
-}
-.main{
-    display: flex;
-    flex-direction: row;
-    margin: 20px;
-}
-#closing{
-    margin: 30px;
-}
-.list-item{
-    display: inline;
-    padding: 0;
-    margin: auto;
-}
-.list-item li {
-    display: inline;
-    
-}
-.list-item li a {
-    color: #F9F5EB;
-    margin: 5px;
-    text-align: center;
-}
-
-
-
 
 /* Navigation Bar */
 #logo{
@@ -91,7 +44,6 @@ nav{
 
 /* Body */
 #heading{
-    margin-top:80px;
     text-align: center;
     font-size: 70px;
     padding: 0;
@@ -112,7 +64,19 @@ p{
     padding: 20px;
     color: #F9F5EB;
 }
+.container{
+    display: flexbox;
+    flex-direction: column;
+}
 
-
+/* Footer */
+hr {
+    border: none;
+    height: 3px;
+    background-color:#F9F5EB;
+}
+#closing{
+    margin: 30px;
+}
 
 
