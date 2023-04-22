@@ -14,6 +14,9 @@ body{
 }
 
 /* Navigation Bar */
+.container{
+    margin: auto;
+}
 #logo{
     float: left;
     height: 100px;
@@ -31,11 +34,14 @@ nav{
 .navbar-toggler{
     margin: 15px 20px;
     position: static;
+    float: right;
 }
 #navbarNavAltMarkup{
     float: right;
 }
-
+.navbar-nav{
+    text-align: center;
+}
 .nav-link{
     display: inline;
     text-align: center;
@@ -63,10 +69,6 @@ p{
     display: block;
     padding: 20px;
     color: #F9F5EB;
-}
-.container{
-    display: flexbox;
-    flex-direction: column;
 }
 
 /* Footer */
