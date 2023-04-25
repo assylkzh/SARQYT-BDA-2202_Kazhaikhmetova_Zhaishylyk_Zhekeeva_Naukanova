@@ -1,11 +1,6 @@
-@font-face{
-    src: url(/fonts/Skiff-Regular.otf);
-    font-family:nos;
-    font-weight: bold;
-}
 body{
     background-color: #CFB997;
-    font-family:nos;
+    font-family: Gill Sans, "Gill Sans";
 }
 center{
     margin: 0;

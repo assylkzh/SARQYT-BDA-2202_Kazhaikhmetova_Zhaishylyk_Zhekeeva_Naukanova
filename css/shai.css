@@ -1,17 +1,12 @@
-@font-face{
-    src: url(/fonts/Skiff-Regular.otf);
-    font-family:nos;
-    font-weight: bold;
-}
+
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
 }
 body{
-    font-family: 'Courier New', Courier, monospace;
+    font-family:Gill Sans, "Gill Sans";
     background-color: #9BA17B;
-    font-family:nos;
 }
 .menu{
     width: 1200px;

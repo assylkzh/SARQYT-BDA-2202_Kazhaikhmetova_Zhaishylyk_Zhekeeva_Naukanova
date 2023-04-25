@@ -1,13 +1,9 @@
-@font-face{
-    src: url(/fonts/Skiff-Regular.otf);
-    font-family:nos;
-    font-weight: bold;
-}
+
 *{
-    font-family:nos; 
+    font-family:Gill Sans, "Gill Sans";
 }
 body{
-    font-family:nos;
+    font-family:Gill Sans, "Gill Sans";
 }
 .container-fluid {
     background-color: #F0EBCE;
@@ -53,7 +49,7 @@ form {
     display: flex;
     flex-wrap: wrap;
     width: 60%;
-    font-family:nos;
+    
 }
 label {
     grid-column-start: 1;
@@ -88,7 +84,7 @@ input {
     color: #F0EBCE;
     font-size: 18px;
     margin-top: 20px;
-    font-family:nos;
+    font-family:Gill Sans, "Gill Sans";
 }
 .button2 {
     width: 150px;

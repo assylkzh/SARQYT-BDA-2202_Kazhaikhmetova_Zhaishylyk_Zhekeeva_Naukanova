@@ -1,14 +1,11 @@
-@font-face{
-    src: url(/fonts/Skiff-Regular.otf);
-    font-family:nos;
-    font-weight: bold;
-}
 body{
-    background: rgba(0, 0, 0, 0.9) url(/images/backgroud.jpg);
+    background: rgba(0, 0, 0, 0.9) url(/images/pexels-pixabay-235985.jpg);
     height: 100%;
+    width: 100%;
+    background-size: cover;
     background-position: center;
     background-blend-mode: darken;
-    font-family: nos;
+    font-family: Gill Sans, "Gill Sans";
     font-size: 18px;
     margin: 0%;
 }
@@ -49,6 +46,9 @@ nav{
 }
 
 /* Body */
+.before{
+    color: #FBD784;
+}
 #heading{
     text-align: center;
     font-size: 70px;
@@ -62,8 +62,9 @@ h1{
     color:#F9F5EB;
 }
 img{
-    height: 600px;
-    width: 600px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 p{
     display: block;
