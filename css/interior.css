@@ -12,37 +12,27 @@ body{
 
 /* Navigation Bar */
 .container{
-    margin: auto;
+    margin: 0%;
+}
+.container-fluid{
+    margin: 0%;
+    padding: 0%;
 }
 #logo{
     float: left;
     height: 100px;
     width: 100px;
     position: static;
-    padding: 0;
-    margin-top: 25px 15px;
-}
-nav{
-    height: 100px;
-    width: 100px;
-    margin-top: 10px;
-    margin-bottom: 50px;
+    margin: 20px 200px 0 10px ;
 }
 .navbar-toggler{
     margin: 15px 20px;
-    position: static;
-    float: right;
-}
-#navbarNavAltMarkup{
-    float: right;
-}
-.navbar-nav{
-    text-align: center;
+    position: relative;
 }
 .nav-link{
     display: inline;
     text-align: center;
-    width: 150px;
+    margin: 0 15px;
 }
 
 /* Body */
