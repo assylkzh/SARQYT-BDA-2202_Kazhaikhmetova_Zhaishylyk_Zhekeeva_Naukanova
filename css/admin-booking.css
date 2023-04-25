@@ -1,9 +1,8 @@
-
 *{
-    font-family:Gill Sans, "Gill Sans";
+    font-family: Gill Sans, "Gill Sans";
 }
 body{
-    font-family:Gill Sans, "Gill Sans";
+    font-family: Gill Sans, "Gill Sans";
 }
 .container-fluid {
     background-color: #F0EBCE;
@@ -16,24 +15,11 @@ body{
     height: 670px;
     margin: auto;
 }
-.container2 {
-    background-color: #224B0C;
-    width: 1000px;
-    height: 650px;
-    margin: auto;
-}
 h1 {
     color: #224B0C;
     text-align: center;
     font-size: 80px;
     margin-left: 70px;
-}
-#h {
-    color: #CFB784;
-    text-align: center;
-    font-size: 80px;
-    margin-top: 35px;
-    margin-left: -100px;
 }
 .label {
     display: grid;
@@ -52,27 +38,16 @@ form {
     
 }
 label {
-    grid-column-start: 1;
-    grid-column-end: 3;
     font-size: 30px;
-    padding-top: 15px;
-}
-.label2 {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    font-size: 30px;
-    padding-top: 15px;
-    color: white;
+    background-color: white;
 }
 input {
     width: 370px;
+    margin-top: 10px;
     height: 35px;
-    flex: 1 1 40%;
-    margin: 15px 20px;
-    font-size: 15px;
-    color: grey;
 }
 .row {
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,15 +57,6 @@ input {
     height: 40px;
     background-color: #224B0C;
     color: #F0EBCE;
-    font-size: 18px;
-    margin-top: 20px;
-    font-family:Gill Sans, "Gill Sans";
-}
-.button2 {
-    width: 150px;
-    height: 40px;
-    background-color:#CFB784;
-    color: #224B0C;
     font-size: 18px;
     margin-top: 20px;
 }
@@ -105,4 +71,8 @@ a {
 .a2 {
     margin-left: -120px;
     margin-top: 0px;
+}
+.col-md-4 {
+    text-align: right;
+    background-color: red;
 }
