@@ -71,6 +71,10 @@ p{
     color: #F9F5EB;
     font-size: 19px;
 }
+.popover{
+    background-color: rgb(106, 106, 106);
+    color: black;
+}
 
 /* Footer */
 hr {
