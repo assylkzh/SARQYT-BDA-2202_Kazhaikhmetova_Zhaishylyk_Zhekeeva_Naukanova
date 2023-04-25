@@ -1,13 +1,10 @@
 body{
-    background: rgba(0, 0, 0, 0.9) url(/images/pexels-pixabay-235985.jpg);
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
+    background: rgba(0, 0, 0, 0.94) url(/images/backgroud.jpg);
     background-blend-mode: darken;
+    background-size:contain;
     font-family: Gill Sans, "Gill Sans";
     font-size: 18px;
-    margin: 0%;
+    margin: 3%;
 }
 
 /* Navigation Bar */
@@ -36,16 +33,28 @@ body{
 }
 
 /* Body */
-.before{
-    color: #FBD784;
+.arrow{
+    width: 75px;
+    height: 47px;
+    padding: 10px;
+    text-align: center;
+}
+.arrow-main{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
 }
 #heading{
     text-align: center;
     font-size: 70px;
     padding: 0;
+    margin-top: 40px;
 }
 .row{
     margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 h1{
     text-align: center;
@@ -60,6 +69,7 @@ p{
     display: block;
     padding: 20px;
     color: #F9F5EB;
+    font-size: 19px;
 }
 
 /* Footer */
