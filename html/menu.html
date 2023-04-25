@@ -3,46 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Menu</title>
-    <link rel="stylesheet" href="/css/menu.css">
     <link rel="icon" type="image/png" href="/images/logo.jpg">
-  </head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/menu.css">
+</head>
   <body>
-   <h1 style=" padding: 0;">САРҚЫТҚА ҚОШ КЕЛДІҢІЗ!</h1>
-   <center><a href="/html/home.html" style="background-color:  #CFB997;  padding: 0;" > <img src="/images/logo.jpg" alt="" style=" height: 100px; width: 100px;"></a></center>
-   <center><h2>Дәстүрдің дәмін сезіңіз!</h2></center>
-   <div class="box-container">
-    <div class="box">
-        <div class="image">
-            <img src="/menu.images/tea.jpg">
-        </div>
-        <div class="content">
-            <h3>ШӘЙ ІШТЕ ШӨЛІҢДІ БАС АЙНАЛАЙЫН</h3>
-            <p>Бұл мәзірде сусындар берілген: шәй, айран, шұбар;</p>
-            <a href="/html/shai.html" >Мәзірге шолу жасау</a>
-
-        </div>
+   <div class="container">
+   <h1 class="text-center py-3">САРҚЫТҚА ҚОШ КЕЛДІҢІЗ!</h1>
+   <div class="d-flex justify-content-center">
+   <a href="/html/home.html"><img src="/images/logo.jpg" alt="" class="img-fluid" style="height: 100px; width: 100px;"></a>
+   </div>
+   <div class="text-center py-3"><h2>Дәстүрдің дәмін сезіңіз!</h2></div>
+   <div class="row">
+    <div class="col-md-4">
+     <div class="card mb-3">
+      <img src="/menu.images/tea.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h3 class="card-title">ШӘЙ ІШТЕ ШӨЛІҢДІ БАС АЙНАЛАЙЫН</h3>
+        <p class="card-text">Бұл мәзірде сусындар берілген: шәй, айран, шұбар;</p>
+        <a href="/html/shai.html" class="btn btn-primary">Мәзірге шолу жасау</a>
+      </div>
     </div>
-    <div class="box">
-        <div class="image">
-            <img src="/menu.images/meat.jpg">
-        </div>
-        <div class="content">
-            <h3>ЕТ ЖЕ АЙНАЛАЙЫН!</h3>
-            <p>Бұл мәзірде еттен жасалған тағамдар берілген, тағдауыңды жаса да дәм татып қара!</p>
-            <a href="/html/et.html" >Мәзірге шолу жасау</a>
-        </div>
     </div>
-    <div class="box">
-        <div class="image">
-            <img src="/menu.images/nan.jpg">
-        </div>
-        <div class="content">
-            <h3>ТІСКЕ БАСАРЫҢДЫ ТАҢДА АЙНАЛАЙЫН</h3>
-            <p>Бұл мәзірде әр түрлі тәтті бәліштер мен нандар берілген</p>
-            <a href="/html/nan.html">Мәзірге шолу жасау</a>
-            
+    <div class="col-md-4">
+     <div class="card mb-3">
+      <img src="/menu.images/meat.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h3 class="card-title">ЕТ ЖЕ АЙНАЛАЙЫН!</h3>
+        <p class="card-text">Бұл мәзірде еттен жасалған тағамдар берілген, тағдауыңды жаса да дәм татып қара!</p>
+        <a href="/html/et.html" class="btn btn-primary">Мәзірге шолу жасау</a>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card mb-3">
+         <img src="/menu.images/meat.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h3 class="card-title">ТІСКЕ БАСАРЫҢДЫ ТАҢДА АЙНАЛАЙЫН</h3>
+           <p class="card-text">Бұл мәзірде әр түрлі тәтті бәліштер мен нандар берілген</p>
+           <a href="/html/nan.html" class="btn btn-primary">Мәзірге шолу жасау</a>
+         </div>
         </div>
     </div>
    </div>
+    

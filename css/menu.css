@@ -1,6 +1,6 @@
 body{
     background-color: #CFB997;
-    font-family: Gill Sans, "Gill Sans";
+    font-family:nos;
 }
 center{
     margin: 0;
@@ -14,7 +14,7 @@ a:link, a:visited {
     transition-duration: 0.4s;
     text-decoration: none;
     font-size: 20px;
-    text-align: center; 
+    text-align: center;
     cursor: pointer;
     display: inline-block;
 }
@@ -59,6 +59,7 @@ display: inline-block;
 }
 .image:hover img{
     transform: scale(1,1);
+
 
 }
 .content h3{
