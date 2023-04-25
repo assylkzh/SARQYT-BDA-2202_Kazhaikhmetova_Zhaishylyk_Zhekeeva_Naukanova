@@ -58,9 +58,9 @@ body{
 } 
 .fonint{ 
     background-color: #aa8b56; 
-    width: 410px; 
+    width: 450px;
     height: 430px; 
-    margin-right: 80px; 
+    border-right: 20px; 
     margin-top: 10px; 
 } 
 .aboutint{ 
@@ -91,12 +91,13 @@ body{
     height: 400px; 
     width: 380px; 
     margin: 15px; 
+    margin-right: 50px;
 } 
 .fonmenu{ 
-    background-color: #4e6c50; 
-    width: 410px; 
-    height: 430px; 
-    margin-left: 50px; 
+   border-width: 20px;
+   background-color: #4e6c50; 
+    width: 450px; 
+    height: 430px;
     margin-top: 8px; 
 } 
 .aboutm{ 
@@ -124,12 +125,13 @@ body{
 .photo1 img{ 
     height: 400px; 
     width: 380px; 
-    margin: 15px;  
+    margin: 15px; 
+
 } 
 .photo2 img{ 
     height: 400px; 
     width: 380px; 
-    margin: 15px;  
+margin: 15px; 
 } 
 .photo1{ 
     background-color: #f0ebce; 
@@ -149,6 +151,7 @@ body{
     font-style: italic; 
     font-size: 40px; 
     font-family: serif; 
+    margin-bottom: 20px;
 } 
 .butinvite a{ 
 color: white; 
