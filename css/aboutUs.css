@@ -26,6 +26,12 @@ img{
     background-color: #9BA17B;
     border-color: #9BA17B;
 }
+.btn-primary:hover{
+    color:  black;
+    background-color: #9BA17B;
+    border-color: #9BA17B;
+
+}
 .container-fluid{
     display: grid;
     justify-content: center;
