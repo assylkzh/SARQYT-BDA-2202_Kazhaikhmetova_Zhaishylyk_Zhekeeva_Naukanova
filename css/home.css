@@ -1,4 +1,36 @@
+h1{
+    text-align: center;
+    font-size: 60px;
+    margin: 30px;
+    color: white;
 
+}
+/* Navigation Bar */
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.container-fluid{
+    margin: 0%;
+    padding: 0%;
+}
+#logo{
+    float: left;
+    height: 100px;
+    width: 100px;
+    position: static;
+    margin: 20px 200px 0 10px ;
+}
+.navbar-toggler{
+    margin: 15px 20px;
+    position: relative;
+}
+.nav-link{
+    display: inline;
+    text-align: center;
+    margin: 0 15px;
+}
 *{
     font-family:Gill Sans, "Gill Sans";
 }
