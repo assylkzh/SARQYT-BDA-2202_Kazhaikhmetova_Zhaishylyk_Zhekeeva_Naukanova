@@ -9,37 +9,42 @@
         <title>Admin</title>
     </head>
     <body>
-        <div class="container-fluid">
-            <div class="container">
+        <div class="container" id="pad">
+            <div class="container" id="rec">
                 <div class="row">
-                    <div class="col-md-2 col-sm-2">
-                        <a href="/html/home.html"><img src="/images/logo.jpg" title="Басты бет"></a>
+                    <div class="col-md-1 col-sm-0">
                     </div>
-                    <div class="col-md-10 col-sm-10">
-                        <h1>Администратор парақшасына кіру</h1>
+                    <div class="col-md-11 col-sm-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="/html/home.html"><img src="/images/logo.jpg" title="Басты бет"></a>
+                            <h1>Администратор парақшасына кіру</h1>
+                        </nav>
+                        <div class="row">
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-12">
+                                        <label class="label" for="login">Логин:</label>
+                                    </div>
+                                    <div class="col-md-8 col-sm-12">
+                                        <input type="text" id="login" name="login" value="логин">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-12">
+                                        <label class="label" for="passw">Құпия сөз:</label>
+                                    </div>
+                                    <div class="col-md-8 col-sm-12">
+                                        <input type="password" id="passw" name="passw" value="құпия сөз">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <input class="button" type="submit" value="Тіркеу">
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
-                    <form>
-                        <div class="row">
-                            <div class="col-md-12 col-sm-4">
-                                <label for="login">Логин:</label>
-                            </div>
-                            <div class="col-md-8 col-sm-8">
-                                <input type="text" id="login" name="login">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4 col-sm-4">
-                                <label for="password">Құпия сөз:</label>
-                            </div>
-                            <div class="col-md-8 col-sm-8">
-                                <input type="password" id="pass" name="people">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <input class="button" type="submit" value="Кіру">
-                        </div>
-                    </form>
+            </div>
         </div>
     </body>
 </html>
