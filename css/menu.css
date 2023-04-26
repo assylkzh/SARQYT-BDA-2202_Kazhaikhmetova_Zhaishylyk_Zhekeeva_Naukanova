@@ -1,5 +1,5 @@
 body{
-    background: rgba(0, 0, 0, 0.7) url(/menu.images/background.webp);
+    background: rgba(0, 0, 0, 0.4) url(/menu.images/background.webp);
     background-blend-mode: darken;
     background-size:contain;
     font-family:Gill Sans, "Gill Sans";
@@ -31,8 +31,7 @@ a:link, a:visited {
     text-transform: uppercase;
     letter-spacing: 1.3px;
     font-family: Gill Sans, "Gill Sans";
-    margin-top: 40px 
-    
+    margin-top: 70px;
 }
 h2{
 text-align: center;
