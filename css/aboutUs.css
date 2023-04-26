@@ -16,6 +16,7 @@ body{
 }
 .card{
     margin:10px;
+    width: fit-content;
 }
 img{
     width: 100%;
