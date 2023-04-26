@@ -1,12 +1,15 @@
 body{
-    background-color: #CFB997;
+    background: rgba(0, 0, 0, 0.4) url(/menu.images/background.webp);
+    background-blend-mode: darken;
+    background-size:contain;
     font-family:Gill Sans, "Gill Sans";
+   
 }
 center{
     margin: 0;
 }
 a:link, a:visited {
-    background-color: #9BA17B ;
+    /*👉background-color: #9BA17B ;👈*/
     border: none;
     color: #FFFFFF;
     padding: 25px 52px;
@@ -21,16 +24,18 @@ a:link, a:visited {
     h1{
     padding: 1rem 5%;
     text-align: center;
-    color: black;
-    font-size: 3rem;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
     padding-bottom: 2rem;
     text-transform: uppercase;
     letter-spacing: 1.3px;
     font-family: Gill Sans, "Gill Sans";
+    margin-top: 70px;
 }
 h2{
 text-align: center;
-color: black;
+color: white;
 font-size: 2.5rem;
 padding: 0;
 font-weight: 300;
@@ -61,7 +66,7 @@ display: inline-block;
     transform: scale(1,1);
 }
 .content h3{
-color:var(wheat);
+color:var(white);
 font-size: 2.2rem ;
 font-weight: 400;
 }
@@ -73,3 +78,11 @@ font-weight: 400;
     line-height: 1.5;
 }
 
+.btn-primary:hover{
+    color:  black;
+    background-color: #9BA17B;
+    border-color: #9BA17B;
+}
+.btn-primary{
+    background-color: #9BA17B ;
+}
