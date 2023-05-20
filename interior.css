@@ -7,46 +7,62 @@ body{
     margin: 0;
 }
 
-/* Navigation Bar */
-.container{
-    margin: 3%;
-    display: grid;
-    justify-content: center;
-    align-items: center;
+/* Slide  Bar */
+#main{
+    margin: 40px 50px 0px 50px ;
+
 }
-.container-fluid{
-    margin: 0%;
-    padding: 0%;
+.sidebar {
+    height: 100%;
+    width: 0; 
+    position: fixed; 
+    overflow-x: hidden;
+    padding-top: 60px; 
+    transition: 0.5s;
 }
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: gray;
+    display: block;
+    transition: 0.3s;
+ }
+
+.sidebar a:hover {
+    color: white;
+}
+  
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+  
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+  
+.openbtn:hover {
+    background-color: gray;
+}
+  
 #logo{
-    float: left;
+    float: right;
     height: 100px;
     width: 100px;
     position: static;
-    margin: 20px 200px 0 10px ;
-}
-.navbar-toggler{
-    margin: 15px 20px;
-    position: relative;
-}
-.nav-link{
-    display: inline;
-    text-align: center;
-    margin: 0 15px;
+    /*👉margin: 20px 15px 0 0px ;👈*/
 }
 
+
 /* Body */
-.arrow{
-    width: 75px;
-    height: 47px;
-    padding: 10px;
-    text-align: center;
-}
-.arrow-main{
-    color: #FFFFFF;
-    text-decoration: none;
-    font-size: 18px;
-}
 #heading{
     text-align: center;
     font-size: 70px;
@@ -62,6 +78,7 @@ body{
 h1{
     text-align: center;
     color:#F9F5EB;
+    font-size: 50px;
 }
 img{
     width: 100%;
