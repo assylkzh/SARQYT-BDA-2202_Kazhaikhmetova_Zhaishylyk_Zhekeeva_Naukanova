@@ -1,10 +1,19 @@
+@font-face {
+    font-family: "CustomFont";
+    src: url(vBenguiatkaz.ttf);
+}
+@font-face {
+    font-family: "CustomFont1";
+    src: url(vAsylm07.ttf);
+}
+
+
 body{
     background: rgba(0, 0, 0, 0.7) url(background.webp);
     background-blend-mode: darken;
     background-size:contain;
-    font-family: Gill Sans, "Gill Sans";
-    font-size: 18px;
-    margin: 0;
+    font-family: "CustomFont1";
+
 }
 
 @keyframes fadeIn {
@@ -87,9 +96,10 @@ body{
     justify-content: center;
 }
 h1{
+    font-family: "CustomFont";
     text-align: center;
     color:#F9F5EB;
-    font-size: 50px;
+    font-size: 40px;
 }
 img{
     width: 100%;
@@ -100,7 +110,7 @@ p{
     display: block;
     padding: 20px;
     color: #F9F5EB;
-    font-size: 19px;
+    font-size: 20px;
 }
 .popover{
     background-color: rgb(106, 106, 106);
