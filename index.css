@@ -35,7 +35,7 @@ h1{
     font-family:Gill Sans, "Gill Sans";
 }
 body{ 
-    background: rgba(0, 0, 0, 0.9) url(/images/backgroud.jpg); 
+    background: rgba(0, 0, 0, 0.95) url(backgroud.jpg); 
     height: 100%; 
     width: 100%; 
     background-blend-mode: darken; 
