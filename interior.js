@@ -4,8 +4,8 @@ var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggl
       })
 
 function openNav() {
-  document.getElementById("Sidebar").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
+  document.getElementById("Sidebar").style.width = "400px";
+  document.getElementById("main").style.marginLeft = "400px";
 }
 
 function closeNav() {
