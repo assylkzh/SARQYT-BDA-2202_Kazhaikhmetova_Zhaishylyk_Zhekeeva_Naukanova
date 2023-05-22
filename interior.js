@@ -12,3 +12,17 @@ function closeNav() {
   document.getElementById("Sidebar").style.width = "0";
   document.getElementById("main").style.marginLeft = "0";
 }
+var music=document.getElementById("music")
+var isPlaying = false;
+
+function play() {
+  isPlaying ? myAudio.pause() : music.play();
+};
+
+music.onplaying = function() {
+  isPlaying = true;
+};
+music.onpause = function() {
+  isPlaying = false;
+};
+
