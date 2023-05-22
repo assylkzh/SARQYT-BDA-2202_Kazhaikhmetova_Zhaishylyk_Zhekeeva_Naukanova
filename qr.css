@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "CustomFont";
+    src: url(vBenguiatkaz.ttf);
+}
+@font-face {
+    font-family: "CustomFont1";
+    src: url(vAsylm07.ttf);
+}
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +13,7 @@
     box-sizing: border-box;
 }
 body{
+    font-family: "CustomFont1";
     background: wheat;
 }
 .container{

@@ -1,11 +1,21 @@
-
+@font-face {
+    font-family: "CustomFont";
+    src: url(vBenguiatkaz.ttf);
+}
+@font-face {
+    font-family: "CustomFont1";
+    src: url(vAsylm07.ttf);
+}
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
 }
+h4{
+    font-family: "CustomFont";
+}
 body{
-    font-family: Gill Sans, "Gill Sans";
+    font-family: "CustomFont1";
     background-color: #9BA17B;
     font-family:Gill Sans, "Gill Sans";
 }

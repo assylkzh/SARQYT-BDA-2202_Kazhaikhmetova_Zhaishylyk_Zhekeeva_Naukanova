@@ -1,4 +1,13 @@
+@font-face {
+    font-family: "CustomFont";
+    src: url(vBenguiatkaz.ttf);
+}
+@font-face {
+    font-family: "CustomFont1";
+    src: url(vAsylm07.ttf);
+}
 h1{
+    font-family: "CustomFont";
     font-weight: bold;
     color: white;
     font-size: 60px;
@@ -9,7 +18,7 @@ body{
     background: rgba(0, 0, 0, 0.94) url(/images/backgroud.jpg);
     background-blend-mode: darken;
     background-size:contain;
-    font-family: Gill Sans, "Gill Sans";
+    font-family: "CustomFont1";
     font-size: 18px;
     margin: 0;
     color: white;

@@ -4,9 +4,17 @@
     box-sizing:border-box;
     
 }
+@font-face {
+    font-family: "CustomFont";
+    src: url(vBenguiatkaz.ttf);
+}
+@font-face {
+    font-family: "CustomFont1";
+    src: url(vAsylm07.ttf);
+}
 body{
     background-color: #9BA17B;
-    font-family:Gill Sans, "Gill Sans";
+    font-family: "CustomFont1";
 }
 .menu{
     width: 1200px;
@@ -98,4 +106,7 @@ a:link, a:visited {
     text-align: center; 
     cursor: pointer;
     display: inline-block;
+}
+h1{
+    font-family: "CustomFont";
 }

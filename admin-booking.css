@@ -1,5 +1,13 @@
 *{
-    font-family: Gill Sans, "Gill Sans";
+    font-family: "CustomFont1";
+}
+@font-face {
+    font-family: "CustomFont";
+    src: url(vBenguiatkaz.ttf);
+}
+@font-face {
+    font-family: "CustomFont1";
+    src: url(vAsylm07.ttf);
 }
 body{
     font-family: Gill Sans, "Gill Sans";
@@ -24,6 +32,7 @@ img {
     height: 100px;
 }
 h1 {
+    font-family: "CustomFont";
     color: #224B0C;
     text-align: center;
     padding: 20px;
