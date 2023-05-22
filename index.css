@@ -7,6 +7,7 @@
     src: url(vAsylm07.ttf);
 }
 h1{
+    font-family: "CustomFont";
     text-align: center;
     font-size: 60px;
     margin: 30px;
@@ -40,14 +41,14 @@ h1{
     margin: 0 15px;
 }
 *{
-    font-family:Gill Sans, "Gill Sans";
+    font-family: "CustomFont1";
 }
 body{ 
     background: rgba(0, 0, 0, 0.95) url(backgroud.jpg); 
     height: 100%; 
     width: 100%; 
     background-blend-mode: darken; 
-    font-family: Gill Sans, "Gill Sans";
+    font-family: "CustomFont1";
     font-size: 18px; 
     color: white;
 } 
