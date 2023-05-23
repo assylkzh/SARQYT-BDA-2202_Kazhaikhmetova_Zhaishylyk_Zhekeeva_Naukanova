@@ -108,21 +108,29 @@ img{
     width: 380px;
     height: 350px;
 }
-
-.btn-primary{
+.btn{
     color:  black;
-    background-color: ns, "Gill Sans";
     background-color: #633C28;
     border-color: #633C28;
 }
-.btn-primary:hover{
+.btn:hover{
     color:  gray;
     background-color:#633C28;
     border-color: #633C28;
-
+}
+.btn:active{
+    background-color: #633C28;
 }
 .container-fluid{
     display: grid;
     justify-content: center;
     align-items: center;
+}
+
+/* input */
+input{
+    width: 170px;
+}
+#letter{
+    margin-top: 30px;
 }

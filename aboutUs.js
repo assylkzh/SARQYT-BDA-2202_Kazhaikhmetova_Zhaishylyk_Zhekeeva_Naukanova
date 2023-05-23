@@ -34,11 +34,28 @@ document.addEventListener("DOMContentLoaded", function() {
 
 //mouseOver logo
 function big(x) {
-    x.style.height = "300px";
-    x.style.width = "300px";
+    x.style.height = "200px";
+    x.style.width = "200px";
 }
 function normal(x) {
     x.style.height = "100px"
     x.style.width = "100px";
 }
-  
+
+//keypress 
+
+function thanks() {
+    var textElement = document.querySelector("#letter");
+    var text = "Сарқыт Жобасына баға бергеніңіз үшін алғыс білдіреміз!";
+    var speed = 90;
+
+    function typeWriter() {
+      if (text.length > 0) {
+        textElement.innerHTML += text.charAt(0);
+        text = text.slice(1);
+        setTimeout(typeWriter, speed);
+      }
+    }
+
+    typeWriter();
+  }
