@@ -18,7 +18,7 @@ body{
 /*👉Before all👈*/
 #entering{
     opacity: 0;
-    transition: opacity 2s;
+    transition: opacity 1s;
     height: 350px;
 }
 .AboutUs{
