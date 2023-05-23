@@ -7,7 +7,6 @@
     src: url(vAsylm07.ttf);
 }
 
-
 body{
     background: rgba(0, 0, 0, 0.91) url(back.png);
     background-blend-mode: darken;
