@@ -53,6 +53,12 @@ input {
     margin-top: 10px;
     height: 35px;
 }
+select {
+    font-family: "CustomFont1";
+    width: 370px;
+    margin-top: 10px;
+    height: 35px;
+}
 .row {
     padding: 20px;
     display: flex;
