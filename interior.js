@@ -12,17 +12,20 @@ function closeNav() {
   document.getElementById("Sidebar").style.width = "0";
   document.getElementById("main").style.marginLeft = "0";
 }
-var music=document.getElementById("music")
-var isPlaying = false;
+
+var audio = document.getElementById("music");
+var playButton = document.getElementById("playButton");
+var playIcon = document.getElementById("playIcon");
 
 function play() {
-  isPlaying ? myAudio.pause() : music.play();
-};
-
-music.onplaying = function() {
-  isPlaying = true;
-};
-music.onpause = function() {
-  isPlaying = false;
-};
+  if (audio.paused) {
+        audio.play();
+        playIcon.classList.remove("fa-circle-play");
+        playIcon.classList.add("fa-circle-pause");
+  } else {
+        audio.pause();
+        playIcon.classList.remove("fa-circle-pause");
+        playIcon.classList.add("fa-circle-play");
+      }
+}
 
