@@ -39,9 +39,19 @@ function play() {
 }
 
 //animations 
-//h1 
-var h1 = document.getElementById("scrollUp");
-enteringImage.addEventListener("scroll", function() {
-  enteringImage.style.opacity = "2";
-});
+//rows
+window.addEventListener("scroll", reveal);
+function reveal(){
+  var reveals=document.querySelectorAll(".row");
+  for(var i=0; i<reveals.length; i++){
+    var windowHeight=window.innerHeight;
+    var revealTop=reveals[i].getBoundingClientRect().top;
+    var revealpoint=150;
+
+    if(revealTop<windowHeight-revealpoint)
+    reveals[i].classList.add("active");
+    else reveals[i].classList.remove("active");
+  }
+
+}
 

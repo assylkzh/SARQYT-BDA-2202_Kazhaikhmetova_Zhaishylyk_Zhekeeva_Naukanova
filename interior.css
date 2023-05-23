@@ -20,7 +20,7 @@ body{
 /*👉Before all👈*/
 #entering{
     opacity: 0;
-    transition: opacity 1s;
+    transition: opacity 2s;
     height: 350px;
 }
 .AboutUs{
@@ -81,7 +81,7 @@ body{
     top: 0;
     right: 25px;
     font-size: 36px;
-    margin-left: 50px;
+    margin-left: 30px;
 }
   
 .openbtn {
@@ -90,6 +90,7 @@ body{
     color: white;
     padding: 10px 15px;
     border: none;
+    margin-left: 30px;
 }
   
 .openbtn:hover {
@@ -112,12 +113,32 @@ body{
     align-items: center;
     justify-content: center;
 }
+.row.int{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 2s ease;
+    opacity: 0;
+    transform: translateY(150px);
+}
+.row.int.active{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 2s ease;
+    transform: translateY(0px);
+    opacity: 1;
+}
+
 h1{
     font-family: "CustomFont";
     text-align: center;
     color:#F9F5EB;
     font-size: 40px;
 }
+
 
 img{
     width: 100%;
@@ -131,7 +152,7 @@ p{
     font-size: 20px;
 }
 .popover{
-    background-color: rgba(186, 186, 186, 0.983);
+    background: url(popover.background.png);
     color: black;
 }
 
