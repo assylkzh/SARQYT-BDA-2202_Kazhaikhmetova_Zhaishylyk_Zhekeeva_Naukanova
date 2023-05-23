@@ -10,12 +10,13 @@
     src: url(vAsylm07.ttf);
 }
 body{
-    font-family: Gill Sans, "Gill Sans";
+    font-family: "CustomFont1";
     background-color: #F0EBCE;
+    background: rgba(0, 0, 0, 0.91) url(back.png);
+    background-blend-mode: darken;
+    background-size:cover;
 }
 #pad {
-    background-color: #F0EBCE;
-    width: 100%;
     margin: 0px;
     margin: 0;
     padding-top: 70px;
@@ -42,10 +43,12 @@ h1 {
     text-align: right;
 }
 label {
+    font-family: "CustomFont1";
     font-size: 30px;
     color: white;
 }
 input {
+    font-family: "CustomFont1";
     width: 370px;
     margin-top: 10px;
     height: 35px;
@@ -61,6 +64,7 @@ input {
     height: 40px;
     background-color: white;
     color: black;
+    background-color: #633C28;
     font-size: 18px;
     margin-top: 20px;
 }
