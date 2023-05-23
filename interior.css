@@ -45,6 +45,10 @@ body{
     padding: 0;
     margin: 0;
 }
+#btn-music{
+    background-color: none;
+    border: none;
+}
 
 
 /* Slide  Bar */
