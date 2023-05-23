@@ -12,7 +12,7 @@
 body{
     font-family: "CustomFont1";
     background-color: #F0EBCE;
-    background: rgba(0, 0, 0, 0.9) url(back.png);
+    background: rgba(0, 0, 0, 0.91) url(back.png);
     background-blend-mode: darken;
     background-size:cover;
 }
