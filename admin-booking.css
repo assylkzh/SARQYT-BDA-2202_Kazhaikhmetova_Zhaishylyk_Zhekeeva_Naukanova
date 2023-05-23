@@ -22,10 +22,10 @@ body{
     overflow-x:hidden;
 }
 .col-md-10 {
-    background-color: #CFB784;
+    background-color: black;
 }
 .col-sm-12 {
-    background-color: #CFB784;
+    background-color: black;
 }
 img {
     width: 120px;
@@ -33,7 +33,7 @@ img {
 }
 h1 {
     font-family: "CustomFont";
-    color: #224B0C;
+    color: white;
     text-align: center;
     padding: 20px;
     font-size: 70px;
@@ -43,6 +43,7 @@ h1 {
 }
 label {
     font-size: 30px;
+    color: white;
 }
 input {
     width: 370px;
@@ -58,8 +59,8 @@ input {
 .button {
     width: 150px;
     height: 40px;
-    background-color: #224B0C;
-    color: #F0EBCE;
+    background-color: white;
+    color: black;
     font-size: 18px;
     margin-top: 20px;
 }

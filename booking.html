@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="admin-booking.css">
         <title>Booking</title>
         <link rel="icon" type="image/png" href="logo.jpg">
-
+        <script src="booking.js"></script>
     </head>
     <body>
         <div class="container" id="pad">
@@ -21,13 +21,13 @@
                             <h1>Үстелді брондау</h1>
                         </nav>
                         <div class="row">
-                            <form>
+                            <form id="booking-form">
                                 <div class="row">
                                     <div class="col-md-4 col-sm-12">
                                         <label for="number">Телефон нөміріңіз:</label>
                                     </div>
                                     <div class="col-md-8 col-sm-12">
-                                        <input type="text" id="number" name="number">
+                                        <input type="text" id="number" name="number" placeholder="8 777 777 7777">
                                     </div>
                                 </div>
                                 <div class="row">
@@ -35,7 +35,7 @@
                                         <label for="people">Адам саны:</label>
                                     </div>
                                     <div class="col-md-8 col-sm-12">
-                                        <input type="text" id="people" name="people">
+                                        <input type="text" id="people" name="people" placeholder="2">
                                     </div>
                                 </div>
                                 <div class="row">
@@ -51,7 +51,7 @@
                                         <label for="time">Уақыты:</label>
                                     </div>
                                     <div class="col-md-8 col-sm-12">
-                                        <input list="time">
+                                        <input list="time" placeholder="10:00">
                                         <datalist id="time">
                                             <option value="10:00">
                                             <option value="11:00">
