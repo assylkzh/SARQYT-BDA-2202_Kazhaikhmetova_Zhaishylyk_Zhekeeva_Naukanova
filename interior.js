@@ -18,7 +18,7 @@ function closeNav() {
 //entering fade in 
 var enteringImage = document.getElementById("entering");
 enteringImage.addEventListener("load", function() {
-  enteringImage.style.opacity = "2";
+  enteringImage.style.opacity = "1";
 });
 
 // music
