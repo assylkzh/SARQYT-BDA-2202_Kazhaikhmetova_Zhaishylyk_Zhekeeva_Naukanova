@@ -18,13 +18,9 @@ body{
 }
 
 /*👉Before all👈*/
-@keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
-
 #entering{
-    animation: fadeIn 1s ease-in-out;
+    opacity: 0;
+    transition: opacity 1s;
     height: 350px;
 }
 .AboutUs{
@@ -110,7 +106,6 @@ body{
 
 
 /* Body */
-
 .row{
     margin-top: 150px;
     display: flex;
@@ -123,6 +118,7 @@ h1{
     color:#F9F5EB;
     font-size: 40px;
 }
+
 img{
     width: 100%;
     height: 100%;

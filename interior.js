@@ -15,6 +15,12 @@ function closeNav() {
   document.getElementById("main").style.marginLeft = "0";
 }
 
+//entering fade in 
+var enteringImage = document.getElementById("entering");
+enteringImage.addEventListener("load", function() {
+  enteringImage.style.opacity = "2";
+});
+
 // music
 var audio = document.getElementById("music");
 var playButton = document.getElementById("playButton");
@@ -31,4 +37,11 @@ function play() {
         playIcon.classList.add("fa-circle-play");
       }
 }
+
+//animations 
+//h1 
+var h1 = document.getElementById("scrollUp");
+enteringImage.addEventListener("scroll", function() {
+  enteringImage.style.opacity = "2";
+});
 
