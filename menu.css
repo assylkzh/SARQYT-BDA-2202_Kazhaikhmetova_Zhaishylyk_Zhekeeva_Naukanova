@@ -7,9 +7,9 @@
     src: url(vAsylm07.ttf);
 }
 body{
-    background: rgba(0, 0, 0, 0.4) url(/menu.images/background.webp);
+    background: rgba(0, 0, 0, 0.8) url(back.png);
     background-blend-mode: darken;
-    background-size:contain;
+    background-size:cover;
     font-family: "CustomFont1";
    
 }
@@ -87,10 +87,13 @@ font-weight: 400;
 }
 
 .btn-primary:hover{
-    color:  black;
-    background-color: #9BA17B;
-    border-color: #9BA17B;
+    color:  gray;
+    background-color:#633C28;
+    border-color: #633C28;
 }
 .btn-primary{
-    background-color: #9BA17B ;
+    background-color:#633C28;
+}
+.card{
+    height: fit-content;
 }
