@@ -39,7 +39,25 @@
   <div>
     <div class="line"></div>
 
-    <h1>Sarqyt restaurant</h1>
+    <h1></h1>
+    <script>
+      //typing 
+document.addEventListener("DOMContentLoaded", function() {
+    var textElement = document.querySelector("h1");
+    var text = "Sarqyt restaurant";
+    var speed = 100; 
+  
+    function typeWriter() {
+      if (text.length > 0) {
+        textElement.innerHTML += text.charAt(0);
+        text = text.slice(1);
+        setTimeout(typeWriter, speed);
+      }
+    }
+
+    typeWriter();
+});
+    </script>
 </div>
 
 <div class="aboutus">
