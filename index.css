@@ -35,6 +35,7 @@ h1{
 .container-fluid{
     margin: 0%;
     padding: 0%;
+    text-align: center;
 }
 #logo{
     float: left;
