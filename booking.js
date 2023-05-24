@@ -57,13 +57,13 @@ document.addEventListener('DOMContentLoaded', function() {
       localStorage.setItem('booking', JSON.stringify(booking));
   
       // Display success message
-      alert('Бронь қойылды');
+      alert('Бронь қойылды!');
   
       // Clear the input fields
       document.getElementById('number').value = '';
       document.getElementById('people').value = '';
       document.getElementById('date').value = '';
-      document.getElementById('time').placeholder="10:00";
+      document.getElementById('time').value = '';
     });
   });
   
