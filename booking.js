@@ -1,33 +1,4 @@
-/*document.addEventListener("DOMContentLoaded", function() {
-  var bookingForm = document.getElementById("booking-form");
-  
-  bookingForm.addEventListener("submit", function(event) {
-  const numberInput = document.getElementById("number");
-  const peopleInput = document.getElementById("people");
-  const dateInput = document.getElementById("date");
-  const timeInput = document.getElementById("time");
-  
-  const booking = {
-    phonenumber: numberInput,
-    peoplenumber: peopleInput,
-    date: dateInput,
-    time: timeInput
-  };
 
-  if (numberInput.value === "" || peopleInput.value === "" || dateInput.value === "" || timeInput.value === "") {
-    alert("Барлық ақпаратты толтырыңыз!");
-    return;
-  } else {
-    localStorage.setItem("number", phonenumber);
-    localStorage.setItem("people", peoplenumber);
-    localStorage.setItem("date", date);
-    localStorage.setItem("time", time);
-    alert("Table booked");
-    bookingForm.reset();
-    return;
-  }
-  });
-});*/
 document.addEventListener('DOMContentLoaded', function() {
     var form = document.querySelector('form');
     form.addEventListener('submit', function(e) {
