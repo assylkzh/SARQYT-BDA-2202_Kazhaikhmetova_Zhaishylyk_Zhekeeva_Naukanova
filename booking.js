@@ -1,48 +1,69 @@
-document.addEventListener("DOMContentLoaded", function() {
-    // Get the booking form element
-    var bookingForm = document.getElementById("booking-form");
-    
-    // Add submit event listener to the form
-    bookingForm.addEventListener("submit", function(event) {
-      event.preventDefault(); // Prevent form submission
-      
+/*document.addEventListener("DOMContentLoaded", function() {
+  var bookingForm = document.getElementById("booking-form");
+  
+  bookingForm.addEventListener("submit", function(event) {
+  const numberInput = document.getElementById("number");
+  const peopleInput = document.getElementById("people");
+  const dateInput = document.getElementById("date");
+  const timeInput = document.getElementById("time");
+  
+  const booking = {
+    phonenumber: numberInput,
+    peoplenumber: peopleInput,
+    date: dateInput,
+    time: timeInput
+  };
+
+  if (numberInput.value === "" || peopleInput.value === "" || dateInput.value === "" || timeInput.value === "") {
+    alert("Барлық ақпаратты толтырыңыз!");
+    return;
+  } else {
+    localStorage.setItem("number", phonenumber);
+    localStorage.setItem("people", peoplenumber);
+    localStorage.setItem("date", date);
+    localStorage.setItem("time", time);
+    alert("Table booked");
+    bookingForm.reset();
+    return;
+  }
+  });
+});*/
+document.addEventListener('DOMContentLoaded', function() {
+    var form = document.querySelector('form');
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+  
       // Get the input values from the form
-      var numberInput = document.getElementById("number");
-      var peopleInput = document.getElementById("people");
-      var dateInput = document.getElementById("date");
-      var timeInput = document.getElementById("time");
-      
-      // Check if all fields are filled
-      if (numberInput.value === "" || peopleInput.value === "" || dateInput.value === "" || timeInput.value === "") {
-        alert("Fill all fields");
+      var phoneNumber = document.getElementById('number').value;
+      var numberOfPeople = document.getElementById('people').value;
+      var selectedDate = document.getElementById('date').value;
+      var selectedTime = document.getElementById('time').value;
+  
+      // Check if any field is empty
+      if (!phoneNumber || !numberOfPeople || !selectedDate || !selectedTime) {
+        alert('Барлық ақпаратты толтырыңыз!');
         return;
       }
-      
-      // Create a new table row with the input values
-      var newRow = document.createElement("tr");
-      newRow.innerHTML = "<td>" + timeInput.value + "</td><td>" + numberInput.value + "</td><td>" + peopleInput.value + "</td>";
-      
-      // Get the table body element
-      var tableBody = document.querySelector("#bookingTable tbody");
-      
-      // Add the new row to the table
-      tableBody.appendChild(newRow);
-      
-      // Reset the form fields
-      bookingForm.reset();
-      
-      // Show success message
-      alert("Table booked");
-    });
-    
-    // Get the date input element on the calendar page
-    var calendarDateInput = document.getElementById("date");
-    
-    // Add change event listener to the date input
-    calendarDateInput.addEventListener("change", function() {
-      var selectedDate = calendarDateInput.value;
-      // Perform any necessary operations based on the selected date, such as filtering the table rows or fetching data from a server.
-      // You can modify the code here to suit your specific requirements.
+  
+      // Create a new object with the booking details
+      var booking = {
+        phoneNumber: phoneNumber,
+        numberOfPeople: numberOfPeople,
+        selectedDate: selectedDate,
+        selectedTime: selectedTime
+      };
+  
+      // Store the booking details in localStorage
+      localStorage.setItem('booking', JSON.stringify(booking));
+  
+      // Display success message
+      alert('Бронь қойылды');
+  
+      // Clear the input fields
+      document.getElementById('number').value = '';
+      document.getElementById('people').value = '';
+      document.getElementById('date').value = '';
+      document.getElementById('time').placeholder="10:00";
     });
   });
   
