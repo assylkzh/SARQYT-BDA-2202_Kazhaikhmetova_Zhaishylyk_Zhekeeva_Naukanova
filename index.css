@@ -18,9 +18,8 @@ h1{
 .citation{
     display: flex;
     flex-direction: row;
-    margin:20px
- }
-    
+    margin-left: 20px;
+    }  
     .citation img{
     height: 100px;
     width: 100px;
@@ -107,8 +106,10 @@ body{
 .btn-primary{
     background-color: #633c28;
     border-color: #633c28;
-
 }
+.button.auth-button.btn.btn-primary:active {
+    background-color: #fbe200;
+  }
 .footer img{ 
     width: 100px; 
     height: 80px; 
