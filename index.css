@@ -14,6 +14,19 @@ h1{
     color: white;
 
 }
+
+.citation{
+    display: flex;
+    justify-content: center;
+    margin:20px
+ }
+    
+    .citation img{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    }
+
 /* Navigation Bar */
 .container{
     display: grid;
