@@ -111,6 +111,11 @@ h2 {
 .btn-primary {
     background-color: #633C28;
 }
+.btn:hover {
+    color: gray;
+    background-color: #633C28;
+    border-color: #633C28;
+}
 
 .card {
     height: fit-content;
