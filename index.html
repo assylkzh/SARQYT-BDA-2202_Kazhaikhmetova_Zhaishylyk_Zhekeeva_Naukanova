@@ -37,18 +37,20 @@
         </nav>
   </div>   
   <div>
+    <div class="line"></div>
+
     <h1>Sarqyt restaurant</h1>
 </div>
-<div class="line"></div>
+
 <div class="aboutus">
-<div class="container">
+<div class="container" style="margin-bottom: 15px;">
   <div class="row">
     <div class="col-md-6 col-sm-12 col-12">
       <h2 style="font-style: italic; margin-top: 120px;" >Интерьер ерекшеліктері</h2>
       <p>Мейрамхананың қабырғалары қазақстандық суретшілердің картиналарымен безендірілген, ал интерьерде  
         декордың ұлттық элементтері бар. Барлық штрихтар мен егжей-тегжейлер өзінше қазақтың жылы иісі мен   
         халқымыздың бай мәдениетінен хабар береді.</p> 
-        <center><a href="interior.html" class="btn btn-primary">Толық интерьер</a></center>
+        <center><a href="interior.html" class="btn btn-primary" style="margin-bottom: 10px;">Толық интерьер</a></center>
     </div>
     <div class="col-md-6 col-sm-12 col-12">
       <div class="foninter">
@@ -79,7 +81,7 @@
 </div>
 </div>
 
-<div class="container">
+<div class="container" >
   <div class="row">
     <div class="col-md-6 col-sm-12 col-12">
       <div class="fonmenu">
@@ -106,17 +108,38 @@
       </div> 
       </div>
     </div>
-    <div class="col-md-6 col-sm-12 col-12">
+    <div class="col-md-6 col-sm-12 col-12" >
       <h2 style="font-style: italic; margin-top: 120px;">Мәзір туралы</h2> 
             <p>«Сарқыт» мейрамханасы ғасырлар бойы қалыптасқан дәстүрді сақтай отырып,  
             ұлттық тағамдарды жаңаша әзірлейді. Мекеменің иелері қазақ тағамдарын жаңа ағымға сай ұсынуға  
             болатынын халыққа көрсету мақсатында ашқан. Мәзір қазақ ғалымдарының көңілінен шығатын ұмыт  
             болған ұлттық тағамдармен таң қалдырады.</p>
             <center><a href="menu.html" class="btn btn-primary">Толық мәзір</a></center> 
+            <br>
+            <br>
     </div>
   </div>
 </div>
- 
+<br>
+ <div style="margin-left: 150px;">
+<br>
+<h4>Бүгінгі күнге кеңнес алаңыз:</h4>
+<button onclick="generateRandomQuote()" style="background-color: #633c28; color: white;">Басу</button>
+</div>
+<div class="container">
+  <div class="row">
+    <div class=" col-sm-12 col-12">
+      
+<div class="citation">
+  <img id="quote-photo" src="" alt="Фотография">
+  <br>
+  <p id="quote-text"></p> <br>
+  <p id="quote-author"></p>
+</div>
+</div> 
+</div>
+</div>
+  <script src="index.js"></script>
 
 <div class="container">
   <div class="row">
@@ -129,7 +152,7 @@
 <div class="line"></div>
 
 <div class="footer">
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <div class="col-md-4 col-sm-12 col-12">
       <ul type="circle"> <p>Бізбен байланысу үшін: </p> 
