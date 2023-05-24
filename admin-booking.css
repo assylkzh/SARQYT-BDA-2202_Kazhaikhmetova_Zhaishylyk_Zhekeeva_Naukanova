@@ -1,0 +1,75 @@
+*{
+    font-family: "CustomFont1";
+}
+@font-face {
+    font-family: "CustomFont";
+    src: url(vBenguiatkaz.ttf);
+}
+@font-face {
+    font-family: "CustomFont1";
+    src: url(vAsylm07.ttf);
+}
+body{
+    font-family: "CustomFont1";
+    background-color: #F0EBCE;
+    background: rgba(0, 0, 0, 0.91) url(back.png);
+    background-blend-mode: darken;
+    background-size:cover;
+}
+#pad {
+    margin: 0px;
+    margin: 0;
+    padding-top: 70px;
+    overflow-x:hidden;
+}
+.col-md-10 {
+    background-color: black;
+}
+.col-sm-12 {
+    background-color: black;
+}
+img {
+    width: 120px;
+    height: 100px;
+}
+h1 {
+    font-family: "CustomFont";
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 70px;
+}
+.col-md-4 {
+    text-align: right;
+}
+label {
+    font-family: "CustomFont1";
+    font-size: 30px;
+    color: white;
+}
+input {
+    font-family: "CustomFont1";
+    width: 370px;
+    margin-top: 10px;
+    height: 35px;
+}
+select {
+    font-family: "CustomFont1";
+    width: 370px;
+    margin-top: 10px;
+    height: 35px;
+}
+.row {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    margin-top: 20px;
+}
