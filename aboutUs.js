@@ -59,3 +59,44 @@ function thanks() {
 
     typeWriter();
   }
+
+  //popups 
+  function openPopupAssyl() {
+    var popup = document.getElementById('popupAssyl');
+    popup.style.display = 'block';
+  }
+  
+  function closePopupAssyl() {
+    var popup = document.getElementById('popupAssyl');
+    popup.style.display = 'none';
+  }
+
+  function openPopupAssem() {
+    var popup = document.getElementById('popupAssem');
+    popup.style.display = 'block';
+  }
+  
+  function closePopupAssem() {
+    var popup = document.getElementById('popupAssem');
+    popup.style.display = 'none';
+  }
+
+  function openPopupNurai() {
+    var popup = document.getElementById('popupNurai');
+    popup.style.display = 'block';
+  }
+  
+  function closePopupNurai() {
+    var popup = document.getElementById('popupNurai');
+    popup.style.display = 'none';
+  }
+
+  function openPopupDilnaz() {
+    var popup = document.getElementById('popupDilnaz');
+    popup.style.display = 'block';
+  }
+  
+  function closePopupDilnaz() {
+    var popup = document.getElementById('popupDilnaz');
+    popup.style.display = 'none';
+  }

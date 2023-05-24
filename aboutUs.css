@@ -134,3 +134,39 @@ input{
 #letter{
     margin-top: 30px;
 }
+
+
+/*👉pop-ups👈*/
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+  
+.popup-content {
+    background-color: #633C28;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    color: black;
+    text-align: center;
+}
+  
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+  
+.close:hover {
+    color: white;
+}
+  
+
+  
+  
