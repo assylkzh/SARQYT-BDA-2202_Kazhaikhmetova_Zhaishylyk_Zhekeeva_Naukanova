@@ -14,11 +14,15 @@
     <script defer src="rev.js"></script>
 </head>
 
-<body>
+<body style="background: rgba(0, 0, 0, 0.7) url(back.png);
+background-blend-mode: darken;
+background-size:cover;
+height: 100%; 
+width: 100%; ">
     <div class="container">
         <h1 class="text-center py-3">САРҚЫТҚА ҚОШ КЕЛДІҢІЗ!</h1>
         <div class="d-flex justify-content-center">
-            <a href="index.html" id="logo"><img src="logo.jpg" alt="" class="img-fluid" style="height: 180px; width: 180px; "></a>
+            <a href="index.html" id="logo" ><img src="logo.jpg" alt="" class="img-fluid" style="height: 180px; width: 180px; "></a>
         </div>
         <div class="text-center py-3">
             <h2>Дәстүрдің дәмін сезіңіз!</h2>
@@ -52,7 +56,8 @@
 
             setInterval(nextSlide, 3000);
 
-             showSlide(currentIndex);
+
+            showSlide(currentIndex);
         </script>
         <div class="row">
             <div class="col-md-4">
@@ -61,51 +66,52 @@
                     <div class="card-body">
                         <h3 class="card-title">ШӘЙ ІШТЕ ШӨЛІҢДІ БАС, АЙНАЛАЙЫН</h3>
                         <p class="card-text">Бұл мәзірде сусындар берілген: шәй, айран, шұбар;</p>
-                        <div class="card-footer" style="text-align: center;"><a href="shai.html" class="btn btn-primary">Мәзірге шолу жасау</a>
+                        <div class="card-footer" style="text-align: center;"><a href="shai.html" class="btn btn-primary" style="background-color: #633c28; border: #633c28;">Мәзірге шолу жасау</a>
                         </div>
 
-</div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4">
-              <div class="card mb-3">
-                  <img src="meat.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                      <h3 class="card-title">ҚАЗАҚТЫҢ ЕТІН ЖЕ, АЙНАЛАЙЫН!</h3>
-                      <p class="card-text">Бұл мәзірде еттен жасалған тағамдар берілген, дәм тат!</p>
-                      <div class="card-footer" style="text-align: center;">
-                          <a href="et.html" class="btn btn-primary">Мәзірге шолу жасау</a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-4">
-              <div class="card mb-3">
-                  <img src="meat.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                      <h3 class="card-title">ТІСКЕ БАСАРЫҢДЫ ТАҢДА,АЙНАЛАЙЫН</h3>
-                      <p class="card-text">Бұл мәзірде әр түрлі тәтті бәліштер мен нандар берілген</p>
-                      <div class="card-footer" style="text-align: center;"><a href="nan.html" class="btn btn-primary">Мәзірге шолу жасау</a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <section class="section" id="section--3">
-            <div class="slider">
-                <div class="slide slide--1">
-                    <div class="testimonial">
-                        <h5 class="testimonial__header">I will definitely be back!</h5>
-                        <blockquote class="testimonial__text">
-                            Very good service, good menu … not overly extensive. Food was very good quality all around. They know how to prepare home fries and their omelets are top-notch. Prices were reasonable.
-                        </blockquote>
-                        <address class="testimonial__author">
-                <img src="chris-pratt.jpeg" alt="" class="testimonial__photo" />
-                <h6 class="testimonial__name">Chris Pratt</h6>
-                <p class="testimonial__location">San Francisco, currently in Astana</p>
-              </address>
+                <div class="card mb-3">
+                    <img src="meat.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">ҚАЗАҚТЫҢ ЕТІН ЖЕ, АЙНАЛАЙЫН!</h3>
+                        <p class="card-text">Бұл мәзірде еттен жасалған тағамдар берілген, дәм тат!</p>
+                        <div class="card-footer" style="text-align: center;">
+                            <a href="et.html" class="btn btn-primary" style="background-color: #633c28; border: #633c28;">Мәзірге шолу жасау</a>
+                        </div>
                     </div>
                 </div>
-                <div class="slide slide--2">
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="nan.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">ТІСКЕ БАСАРЫҢДЫ ТАҢДА,АЙНАЛАЙЫН</h3>
+                        <p class="card-text">Бұл мәзірде әр түрлі тәтті бәліштер мен нандар берілген</p>
+                        <div class="card-footer" style="text-align: center;"><a href="nan.html" class="btn btn-primary" >Мәзірге шолу жасау</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="section" id="section--3">
+                <div class="slider">
+                    <div class="slide slide--1">
+                        <div class="testimonial">
+                            <h5 class="testimonial__header">I will definitely be back!</h5>
+                            <blockquote class="testimonial__text">
+                                Very good service, good menu … not overly extensive. Food was very good quality all around. They know how to prepare home fries and their omelets are top-notch. Prices were reasonable.
+                            </blockquote>
+                            <address class="testimonial__author">
+                    <img src="chris-pratt.jpeg" alt="" class="testimonial__photo" />
+                    <h6 class="testimonial__name">Chris Pratt</h6>
+                    <p class="testimonial__location">San Francisco, currently in Astana</p>
+                  </address>
+                        </div>
+                    </div>
+
+                    <div class="slide slide--2">
                         <div class="testimonial">
                             <h5 class="testimonial__header">
                                 Қандай тамаша, істерің жүрсін!
@@ -121,7 +127,7 @@
                         </div>
                     </div>
 
-<div class="slide slide--3">
+                    <div class="slide slide--3">
                         <div class="testimonial">
                             <h5 class="testimonial__header">
                                 Don’t say I didn’t warn you…
@@ -137,6 +143,7 @@
                   </address>
                         </div>
                     </div>
+
                     <button class="slider__btn slider__btn--left">&larr;</button>
                     <button class="slider__btn slider__btn--right">&rarr;</button>
                     <div class="dots"></div>
@@ -144,8 +151,4 @@
             </section>
         </div>
 </body>
-
-          
-            
-
-            
+</html>
