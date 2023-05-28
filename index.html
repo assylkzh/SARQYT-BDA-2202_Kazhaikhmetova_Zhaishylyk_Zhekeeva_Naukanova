@@ -142,8 +142,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 <br>
- <div style="margin-left: 150px;">
-<br>
+ 
+
+
+  
+<div id="overlay" onclick="off()">
+  <div id="text">
+    <br>
 <h4>Бүгінгі күнге кеңнес алыңыз:</h4>
 <button class="button"onclick="generateRandomQuote()" style="background-color: #633c28; color: white;">Басу</button>
 </div>
@@ -157,18 +162,25 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </div>
 <p id="quote-author"></p>
-
-</div>
-</div>
-</div>
-
-
-<div id="overlay" onclick="off()">
-  <div id="text">Overlay Text</div>
+  </div>
 </div>
 
 <div style="padding:20px">
-  <h2>Overlay with Text</h2>
+  <br>
+  <h4>Бүгінгі күнге кеңнес алыңыз:</h4>
+  <button class="button"onclick="generateRandomQuote()" style="background-color: #633c28; color: white;">Басу</button>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class=" col-sm-12 col-12">
+        
+  <div class="citation"  style="text-align: left;">
+    <img id="quote-photo" src="" alt="Фотография" style="text-align: center;">
+    <p id="quote-text"></p>
+  
+  </div>
+  <p id="quote-author"></p>
+  
   <button onclick="on()">Turn on overlay effect</button>
 </div>
 
