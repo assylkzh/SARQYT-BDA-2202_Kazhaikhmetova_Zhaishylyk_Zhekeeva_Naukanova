@@ -109,9 +109,14 @@ body{
         border-color: #633C28;
     
 }
-.button.auth-button.btn.btn-primary:active {
-    background-color: #fbe200;
-  }
+
+.button:hover {background-color: #633C28}
+
+.button:active {
+  background-color: #633C28;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 .footer img{ 
     width: 100px; 
     height: 80px; 
