@@ -6,8 +6,20 @@
     font-family: "CustomFont1";
     src: url(vAsylm07.ttf);
 }
-
-
+#myProgress {
+    width: 100%;
+    background-color: #ddd;
+    margin: 50px;
+  }
+  
+  #myBar {
+    width: 10%;
+    height: 30px;
+background-color: burlywood;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+  }
 
 
 
