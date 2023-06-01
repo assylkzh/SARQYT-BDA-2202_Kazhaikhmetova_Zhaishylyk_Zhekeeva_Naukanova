@@ -121,26 +121,38 @@ body{
     width: 100px; 
     height: 80px; 
 }
-#overlay {
-    position: fixed;
-    display: none;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.5);
-    z-index: 2;
-    cursor: pointer;
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 420px;
+    height: 420px;
+    transition: .5s ease;
+    backface-visibility: hidden;
   }
-  #text{
-    margin-top: 50%;
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    font-size: 50px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    margin-left: 230px;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
     color: white;
-    transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
+    font-size: 26px;
+    margin: 30px;
+    text-align: center;
+  }
+  .photki{
+    display: flex;
   }
