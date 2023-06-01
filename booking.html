@@ -72,9 +72,47 @@
                                 </div>
                             </form>
                         </div>
+                        <div id="message">
+                            <h3 style="font-size: 25px;">Number must contain the following:</h3>
+                            <p id="digit" class="invalid">First digit <b>8</b></p>
+                            <p id="length" class="invalid">Total <b>11</b> digits</p>
+                          </div>
                     </div>
                 </div>
             </div>
         </div>
+        <script>
+            var myInput = document.getElementById("number");
+            var number = document.getElementById("digit");
+            var length = document.getElementById("length");
+
+            myInput.onfocus = function() {
+                document.getElementById("message").style.display = "block";
+            }
+
+            myInput.onblur = function() {
+                document.getElementById("message").style.display = "none";
+            }
+
+            myInput.onkeyup = function() {
+
+                var numbers = 8;
+                if(myInput.value.match(numbers)) {  
+                    number.classList.remove("invalid");
+                    number.classList.add("valid");
+                } else {
+                    number.classList.remove("valid");
+                    number.classList.add("invalid");
+                }
+  
+                if(myInput.value.length == 11) {
+                    length.classList.remove("invalid");
+                    length.classList.add("valid");
+                } else {
+                    length.classList.remove("valid");
+                    length.classList.add("invalid");
+                }
+            }
+          </script>
     </body>
 </html>
