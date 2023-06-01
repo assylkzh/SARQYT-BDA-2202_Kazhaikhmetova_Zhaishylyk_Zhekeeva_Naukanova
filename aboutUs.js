@@ -100,3 +100,12 @@ function thanks() {
     var popup = document.getElementById('popupDilnaz');
     popup.style.display = 'none';
   }
+
+//Trigger a Button Click on Enter
+var input = document.getElementById("myInput");
+input.addEventListener("keypress", function(event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    document.getElementById("myBtn").click();
+  }
+});

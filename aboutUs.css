@@ -7,6 +7,15 @@
     src: url(vAsylm07.ttf);
 }
 
+/*👉responsible img
+👈*/
+.responsive {
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+}
+
+
 /*👉Slidebar👈*/
 #main{
     margin: 40px 50px 0px 50px ;
@@ -167,6 +176,28 @@ input{
     color: white;
 }
   
+/*👉parallax👈*/
+body, html {
+    height: 80%;
+}
+  
+.parallax {
+    background-image: url('123.jpg');
 
+    height: 80%; 
   
-  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#overall{
+    text-align: left;
+    margin-left: 270px;
+    font-size: 23px;
+    font-weight: lighter;
+}
+.fa-regular{
+    margin: 5px;
+    margin-bottom: 10px;
+} 

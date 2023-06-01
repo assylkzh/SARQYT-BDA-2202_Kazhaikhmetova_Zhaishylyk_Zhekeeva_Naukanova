@@ -135,6 +135,7 @@ h1{
     text-align: center;
     color:#F9F5EB;
     font-size: 40px;
+    margin-top: 20px;
 }
 
 
@@ -143,6 +144,11 @@ img{
     height: 100%;
     object-fit: cover;
 }
+/*👉resp👈*/
+.responsive {
+    max-width: 100%;
+    height: auto;
+  }
 p{
     display: block;
     padding: 20px;
