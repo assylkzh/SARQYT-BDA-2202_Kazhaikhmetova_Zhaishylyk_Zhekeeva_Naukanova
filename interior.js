@@ -1,18 +1,19 @@
 // popover
-var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
-      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-        return new bootstrap.Popover(popoverTriggerEl)
+var popoverTriggerList = $('[data-bs-toggle="popover"]');
+var popoverList = popoverTriggerList.map(function() {
+  return new bootstrap.Popover($(this)[0]);
 });
+
 
 // slideBar
 function openNav() {
-  document.getElementById("Sidebar").style.width = "400px";
-  document.getElementById("main").style.marginLeft = "400px";
+  $("#Sidebar").css("width", "400px");
+  $("#main").css("marginLeft", "400px");
 }
 
 function closeNav() {
-  document.getElementById("Sidebar").style.width = "0";
-  document.getElementById("main").style.marginLeft = "0";
+  $("#Sidebar").css("width", "0");
+  $("#main").css("marginLeft", "0");
 }
 
 //entering fade in 
@@ -22,27 +23,28 @@ enteringImage.addEventListener("load", function() {
 });
 
 // music
-var audio = document.getElementById("music");
-var playButton = document.getElementById("playButton");
-var playIcon = document.getElementById("playIcon");
+var audio = $("#music")[0];
+var playButton = $("#playButton");
+var playIcon = $("#playIcon");
 
 function play() {
   if (audio.paused) {
-        audio.play();
-        playIcon.classList.remove("fa-circle-play");
-        playIcon.classList.add("fa-circle-pause");
+    audio.play();
+    playIcon.removeClass("fa-circle-play");
+    playIcon.addClass("fa-circle-pause");
   } else {
-        audio.pause();
-        playIcon.classList.remove("fa-circle-pause");
-        playIcon.classList.add("fa-circle-play");
-      }
+    audio.pause();
+    playIcon.removeClass("fa-circle-pause");
+    playIcon.addClass("fa-circle-play");
+  }
 }
+
 
 //animations 
 //rows
 window.addEventListener("scroll", reveal);
 function reveal(){
-  var reveals=document.querySelectorAll(".row");
+  var reveals = $(".row");
   for(var i=0; i<reveals.length; i++){
     var windowHeight=window.innerHeight;
     var revealTop=reveals[i].getBoundingClientRect().top;
@@ -55,7 +57,7 @@ function reveal(){
 
 }
 
-//counter
+//counter 
 var countDownDate = new Date("June 20, 2023 12:00:00").getTime();
 
 var countdownfunction = setInterval(function() {

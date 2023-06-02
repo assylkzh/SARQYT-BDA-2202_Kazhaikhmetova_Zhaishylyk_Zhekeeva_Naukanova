@@ -1,13 +1,14 @@
 // slideBar
 function openNav() {
-    document.getElementById("Sidebar").style.width = "400px";
-    document.getElementById("main").style.marginLeft = "400px";
-  }
-  
-  function closeNav() {
-    document.getElementById("Sidebar").style.width = "0";
-    document.getElementById("main").style.marginLeft = "0";
-  }
+  $("#Sidebar").css("width", "400px");
+  $("#main").css("marginLeft", "400px");
+}
+
+function closeNav() {
+  $("#Sidebar").css("width", "0");
+  $("#main").css("marginLeft", "0");
+}
+
 
 //starting fade in 
 var enteringImage = document.getElementById("start-img");
@@ -16,21 +17,22 @@ enteringImage.addEventListener("load", function() {
 });
 
 //typing 
-document.addEventListener("DOMContentLoaded", function() {
-    var textElement = document.querySelector("h1");
-    var text = "САРҚЫТҚА ҚОШ КЕЛДІҢІЗ!";
-    var speed = 100; 
-  
-    function typeWriter() {
-      if (text.length > 0) {
-        textElement.innerHTML += text.charAt(0);
-        text = text.slice(1);
-        setTimeout(typeWriter, speed);
-      }
-    }
+$(document).ready(function() {
+  var textElement = $("h1");
+  var text = "САРҚЫТҚА ҚОШ КЕЛДІҢІЗ!";
+  var speed = 100;
 
-    typeWriter();
+  function typeWriter() {
+    if (text.length > 0) {
+      textElement.html(textElement.html() + text.charAt(0));
+      text = text.slice(1);
+      setTimeout(typeWriter, speed);
+    }
+  }
+
+  typeWriter();
 });
+
 
 //mouseOver logo
 function big(x) {
@@ -42,23 +44,26 @@ function normal(x) {
     x.style.width = "100px";
 }
 
-//keypress 
+//keypress JQUERY 
 
-function thanks() {
-    var textElement = document.querySelector("#letter");
+$(document).ready(function() {
+  $("#mark").keypress(function() {
     var text = "Сарқыт Жобасына баға бергеніңіз үшін алғыс білдіреміз!";
     var speed = 90;
+    var index = 0;
 
     function typeWriter() {
-      if (text.length > 0) {
-        textElement.innerHTML += text.charAt(0);
-        text = text.slice(1);
+      if (index < text.length) {
+        var currentChar = text.charAt(index);
+        $("#letter").text($("#letter").text() + currentChar);
+        index++;
         setTimeout(typeWriter, speed);
       }
     }
 
     typeWriter();
-  }
+  });
+});
 
   //popups 
   function openPopupAssyl() {
