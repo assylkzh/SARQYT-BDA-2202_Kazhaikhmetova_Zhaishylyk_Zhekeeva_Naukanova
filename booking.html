@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="admin-booking.css">
         <title>Booking</title>
         <link rel="icon" type="image/png" href="logo.jpg">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
         <script src="booking.js"></script>
     </head>
     <body>
@@ -82,37 +83,40 @@
             </div>
         </div>
         <script>
-            var myInput = document.getElementById("number");
-            var number = document.getElementById("digit");
-            var length = document.getElementById("length");
+            $(document).ready(function() {
+                var myInput = $("#number");
+                var number = $("#digit");
+                var length = $("#length");
 
-            myInput.onfocus = function() {
-                document.getElementById("message").style.display = "block";
-            }
+                myInput.focus(function() {
+                    $("#message").css("display", "block");
+                });
 
-            myInput.onblur = function() {
-                document.getElementById("message").style.display = "none";
-            }
+                myInput.blur(function() {
+                    $("#message").css("display", "none");
+                });
 
-            myInput.onkeyup = function() {
+                myInput.keyup(function() {
+                    var inputValue = myInput.val();
+                    var firstChar = inputValue.charAt(0);
 
-                var numbers = 8;
-                if(myInput.value.match(numbers)) {  
-                    number.classList.remove("invalid");
-                    number.classList.add("valid");
-                } else {
-                    number.classList.remove("valid");
-                    number.classList.add("invalid");
-                }
-  
-                if(myInput.value.length == 11) {
-                    length.classList.remove("invalid");
-                    length.classList.add("valid");
-                } else {
-                    length.classList.remove("valid");
-                    length.classList.add("invalid");
-                }
-            }
-          </script>
+                    if (firstChar === "8") {
+                        number.removeClass("invalid");
+                        number.addClass("valid");
+                    } else {
+                        number.removeClass("valid");
+                        number.addClass("invalid");
+                    }
+
+                    if (inputValue.length == 11) {
+                        length.removeClass("invalid");
+                        length.addClass("valid");
+                    } else {
+                        length.removeClass("valid");
+                        length.addClass("invalid");
+                    }
+                });
+            });
+        </script>
     </body>
 </html>

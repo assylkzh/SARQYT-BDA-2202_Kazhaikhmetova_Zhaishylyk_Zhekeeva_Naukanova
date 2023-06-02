@@ -97,7 +97,7 @@ select {
     content: "✔";
   }
 .invalid {
-    color: red;
+    color: #633C28;
     font-size: 18px;
     margin-bottom: auto;
 }  
