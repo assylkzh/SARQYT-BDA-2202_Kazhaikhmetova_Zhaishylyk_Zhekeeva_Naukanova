@@ -100,9 +100,6 @@ body{
     margin-left: 30%;
     margin-right: 20px;
 }
-.aboutus{  
-    margin-top: 40px;
-}
 .foninter{
     height: 440px;
     width: 420px;
@@ -157,10 +154,10 @@ body{
     margin-left: 230px;
   }
   
-  .container:hover .image {
+  .photki:hover .image {
     opacity: 0.3;
   }
-  .container:hover .middle {
+  .photki:hover .middle {
     opacity: 1;
   }
   
@@ -169,7 +166,4 @@ body{
     font-size: 26px;
     margin: 30px;
     text-align: center;
-  }
-  .photki{
-    display: flex;
   }
