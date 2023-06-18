@@ -143,9 +143,9 @@ document.addEventListener("DOMContentLoaded", function() {
 </div>
 <br>
 
-<div class="container-fluid" style="margin-left: 95px;">
+<div class="container" >
     <div class="row">
-      <div class="col-md-6 col-sm-12 col-12">
+      <div class="col-md-6 col-sm-12 col-12" style="margin-bottom: 10px;">
         <div class="photki">
     <img src="5.jpg"  class="image" >
     <div class="middle">
@@ -192,7 +192,7 @@ document.addEventListener("DOMContentLoaded", function() {
   </div>
   </div>
 
-  <div class="container-fluid">
+  <div class="container-fluid" style="margin-right: 60px;">
     <p>Сіздің бізге келуге қалауыңыз:</p>
     <div id="myProgress">
       <div id="myBar">10%</div>
@@ -201,27 +201,6 @@ document.addEventListener("DOMContentLoaded", function() {
     <br>
     <button class="btn btn-primary" onclick="move()" style="background-color: #633c28; color: #ffffff;">Басу</button> 
   </div>
-    <script>
-    var i = 0;
-    function move() {
-      if (i == 0) {
-        i = 1;
-        var elem = document.getElementById("myBar");
-        var width = 10;
-        var id = setInterval(frame, 10);
-        function frame() {
-          if (width >= 100) {
-            clearInterval(id);
-            i = 0;
-          } else {
-            width++;
-            elem.style.width = width + "%";
-            elem.innerHTML = width  + "%";
-          }
-        }
-      }
-    }
-    </script>
     
     
 
