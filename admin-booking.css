@@ -28,6 +28,9 @@ body{
 .col-sm-12 {
     background-color: black;
 }
+.navbar-brand {
+    margin-left: 10%;
+}
 img {
     width: 120px;
     height: 100px;
@@ -49,13 +52,13 @@ label {
 }
 input {
     font-family: "CustomFont1";
-    width: 370px;
+    width: 100%;
     margin-top: 10px;
     height: 35px;
 }
 select {
     font-family: "CustomFont1";
-    width: 370px;
+    width: 100%;
     margin-top: 10px;
     height: 35px;
 }
