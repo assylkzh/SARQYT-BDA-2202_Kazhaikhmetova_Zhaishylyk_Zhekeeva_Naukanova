@@ -27,9 +27,14 @@ body{
 }
 .col-sm-12 {
     background-color: black;
+    padding-right: 5%;
+}
+.col-sm-8 {
+    background-color: black;
+    padding-right: 5%;
 }
 .navbar-brand {
-    margin-left: 10%;
+    margin-left: 5%;
 }
 img {
     width: 120px;
@@ -39,8 +44,11 @@ h1 {
     font-family: "CustomFont";
     color: white;
     text-align: center;
-    padding: 20px;
-    font-size: 70px;
+    padding-left: 30px;
+    font-size: 50px;
+}
+.b {
+    margin-left: 15%;
 }
 .col-md-4 {
     text-align: right;
@@ -53,8 +61,8 @@ label {
 input {
     font-family: "CustomFont1";
     width: 100%;
-    margin-top: 10px;
     height: 35px;
+    margin-top: 10px;
 }
 select {
     font-family: "CustomFont1";
