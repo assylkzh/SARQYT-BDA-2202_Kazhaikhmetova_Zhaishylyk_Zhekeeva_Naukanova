@@ -10,6 +10,7 @@
     width: 100%;
     background-color: #ddd;
     margin-left: 50px;
+    margin-right: 150px;
   }
   
   #myBar {
@@ -100,14 +101,7 @@ body{
     margin-left: 30%;
     margin-right: 20px;
 }
-.foninter{
-    height: 440px;
-    width: 420px;
-}
-.fonmenu{
-    height: 440px;
-     width: 420px;
-}
+
 .invite{ 
     font-style: italic; 
     font-size: 40px; 
