@@ -84,10 +84,14 @@ select {
     color: black;
     font-size: 18px;
     margin-top: 10px;
-    opacity: 1;
     transition: 0.3s;
+    border-radius: 5px;
 }
-.button:hover {opacity: 0.6}
+.button:hover {
+    background-color: #633c28;
+    border-color: #633c28;
+    color: white;
+}
 #message {
     margin: auto;
     margin-top: -15px;
