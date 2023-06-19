@@ -49,14 +49,14 @@
           tableBody.innerHTML = "";
       
           // Check the selected date and populate the table accordingly
-          if (selectedDate === "2023-06-02") {
+          if (selectedDate === "2023-06-20") {
             createTableRow(tableBody, "17:00", "87779239293", "5");
             createTableRow(tableBody, "20:00", "87474552225", "2");
             createTableRow(tableBody, "15:00", "87023477475", "1");
-          } else if (selectedDate === "2023-05-27") {
+          } else if (selectedDate === "2023-06-25") {
             createTableRow(tableBody, "12:00", "87053005883", "9");
             createTableRow(tableBody, "10:00", "87771234567", "3");
-          } else if (selectedDate === "2023-05-30") {
+          } else if (selectedDate === "2023-06-23") {
             createTableRow(tableBody, "16:00", "87058380005", "5");
           }
         });
