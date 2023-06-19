@@ -17,8 +17,8 @@ body{
 
 /*👉Before all👈*/
 #entering{
-    opacity: 0;
-    transition: opacity 1s;
+  /*👉  opacity: 0;
+    transition: opacity 1s;👈*/
     height: 350px;
 }
 .AboutUs{
