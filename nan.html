@@ -13,6 +13,9 @@
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700,900' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="path/to/bootstrap.min.js"></script>
+    <script src="path/to/anime.min.js"></script>
+    <script src="path/to/jquery.min.js"></script>
     <script>
         var ml = {
             timelines: {}
@@ -36,7 +39,7 @@
             width: 100%;
             font-weight: 300;
             font-size: 4em;
-            text-align: justify;
+            text-align: center;
             color: #EEE3CB;
             padding: 300px 0 50px 100px;
             margin-bottom: 150px;
@@ -52,7 +55,6 @@
         }
     </style>
 </head>
-
 <body style="background: rgba(0, 0, 0, 0.7) url(back.png);
 background-blend-mode: darken;
 background-size:cover;
@@ -173,7 +175,6 @@ width: 100%; ">
                                 $('.ml1 .letters').each(function() {
                                     $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
                                 });
-
                                 ml.timelines["ml1"] = anime.timeline({
                                         loop: true
                                     })
