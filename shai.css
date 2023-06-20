@@ -8,15 +8,21 @@
     src: url(vAsylm07.ttf);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h4 {
+    font-family: "CustomFont";
+}
+
 body {
     font-family: "CustomFont1";
     background-color: #fff;
     font-family: Gill Sans, "Gill Sans";
     color: #EEE3CB;
-}
-
-h4 {
-    font-family: "CustomFont";
 }
 
 .menu {
